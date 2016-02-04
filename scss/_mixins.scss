@@ -9,6 +9,6 @@
   color: #fff;
   background: $btn;
   	&:hover {
-  		background: lighten($btn, 20%);
+        background: lighten($btn, 20%);
   	}
 }

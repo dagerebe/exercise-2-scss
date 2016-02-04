@@ -12,7 +12,7 @@
 		color: $btn;
 
 		@media only screen and (min-width: 38em) {
-		font-size: 3em;
+			font-size: 3em;
 		}
 	}
 
@@ -40,7 +40,6 @@
 	@media only screen and (min-width: 60em) {
 		font-size: 12em;	
 	}
-
 }
 
 .pen-move {
@@ -48,62 +47,62 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	animation: penguin 2s ease-in-out infinite alternate;
+	
 	@keyframes penguin {
 
 		0% {
-		transform: translateX(10px);
-		transform: rotate(-5deg)
+			transform: translateX(10px);
+			transform: rotate(-5deg)
 		}
 
 		10% {
-		transform: translateX(-10px);
-		transform: rotate(5deg)
+			transform: translateX(-10px);
+			transform: rotate(5deg)
 		}
 
 		20% {
-		transform: translateX(10px);
-		transform: rotate(-5deg)
+			transform: translateX(10px);
+			transform: rotate(-5deg)
 		}
 
 		30% {
-		transform: translateX(-10px);
-		transform: rotate(5deg)
+			transform: translateX(-10px);
+			transform: rotate(5deg)
 		}
 
 		40% {
-		transform: translateX(10px);
-		transform: rotate(-5deg)
+			transform: translateX(10px);
+			transform: rotate(-5deg)
 		}
 
 		50% {
-		transform: translateX(-10px);
-		transform: rotate(5deg)
+			transform: translateX(-10px);
+			transform: rotate(5deg)
 		}
 
 		60% {
-		transform: translateX(10px);
-		transform: rotate(-5deg)
+			transform: translateX(10px);
+			transform: rotate(-5deg)
 		}
 
 		70% {
-		transform: translateX(-10px);
-		transform: rotate(5deg)
+			transform: translateX(-10px);
+			transform: rotate(5deg)
 		}
 
 		80% {
-		transform: translateX(10px);
-		transform: rotate(-5deg)
-
+			transform: translateX(10px);
+			transform: rotate(-5deg)
 		}
 
 		90% {
-		transform: translateX(-10px);
-		transform: rotate(5deg)
+			transform: translateX(-10px);
+			transform: rotate(5deg)
 		}
 
 		100% {
-		transform: translateX(10px);
-		transform: rotate(-5deg)
+			transform: translateX(10px);
+			transform: rotate(-5deg)
 		}
 	}
 
@@ -127,15 +126,16 @@
 	@media only screen and (min-width: 60em) {
 		font-size: 12em;	
 	}
-
 }
 
 .pen-button {
 	text-align: center;
 	font-weight: 600;
+
 	a {
-	@include button;
+		@include button;
 	}
+
 	@media only screen and (min-width: 38em) {
 		font-size: 1.5em;
 	}
