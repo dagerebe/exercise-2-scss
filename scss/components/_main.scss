@@ -1,0 +1,26 @@
+.bg {
+	background-color: $bg;
+	margin: .5em;
+
+	h1 {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 600;
+		font-family: $open-sans;
+		text-transform: uppercase;
+		padding-bottom: 1em;
+	}
+}
+
+.icon-snow1{
+	@include holder(5em);
+}
+
+.icon-penquin{
+	@include holder(5em);
+}
+
+
+.icon-snow2 {
+	@include holder(5em);
+}
