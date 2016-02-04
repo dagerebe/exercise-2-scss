@@ -12,15 +12,21 @@
 	}
 }
 
+.icons-holder {
+	text-align: center;
+}
+
 .icon-snow1{
-	@include holder(5em);
+	color: $snow;
+	@include holder(8em);
 }
 
 .icon-penquin{
-	@include holder(5em);
+	@include holder(12em);
 }
 
 
 .icon-snow2 {
-	@include holder(5em);
+	color: $snow;
+	@include holder(8em);
 }
