@@ -1,6 +1,7 @@
 .bg {
 	background-color: $bg;
 	margin: .5em;
+	overflow: hidden;
 
 	h1 {
 		text-align: center;
@@ -9,6 +10,7 @@
 		font-family: $open-sans;
 		text-transform: uppercase;
 		padding-bottom: 1em;
+		color: $btn;
 	}
 }
 
@@ -21,8 +23,10 @@
 	font-size: 8em;
 }
 
-.icon-penquin {
+.pen-move {
 	font-size: 10em;
+	margin-top: 0;
+	margin-bottom: 0;
 	animation: penguin 2s ease-in-out infinite alternate;
 	@keyframes penguin {
 
@@ -84,9 +88,20 @@
 	}
 }
 
-
-
 .icon-snow2 {
 	color: $snow;
 	font-size: 8em;
 }
+
+.pen-button {
+	text-align: center;
+	a {
+	@include button;
+	}
+}
+
+
+
+
+
+

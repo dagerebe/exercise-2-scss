@@ -2,6 +2,7 @@
 .bg {
   background-color: #add8e6;
   margin: .5em;
+  overflow: hidden;
 }
 
 .bg h1 {
@@ -11,6 +12,7 @@
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   padding-bottom: 1em;
+  color: #006383;
 }
 
 .icons-holder {
@@ -22,8 +24,10 @@
   font-size: 8em;
 }
 
-.icon-penquin {
+.pen-move {
   font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 0;
   -webkit-animation: penguin 2s ease-in-out infinite alternate;
           animation: penguin 2s ease-in-out infinite alternate;
 }
@@ -169,6 +173,26 @@
 .icon-snow2 {
   color: #fff;
   font-size: 8em;
+}
+
+.pen-button {
+  text-align: center;
+}
+
+.pen-button a {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #006383;
+}
+
+.pen-button a:hover {
+  background: #00b0e9;
 }
 
 /*

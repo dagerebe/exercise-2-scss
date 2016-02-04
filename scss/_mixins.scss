@@ -1,0 +1,14 @@
+@mixin button { 
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 10px;
+  text-align: center;
+  font-family: $open-sans;
+  text-decoration: none;
+  color: #fff;
+  background: $btn;
+  	&:hover {
+  		background: lighten($btn, 20%);
+  	}
+}
