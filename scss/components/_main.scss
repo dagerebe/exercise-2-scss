@@ -1,16 +1,27 @@
 .bg {
 	background-color: $bg;
 	margin: .5em;
-	overflow: hidden;
 
 	h1 {
 		text-align: center;
 		font-size: 2em;
-		font-weight: 600;
+		font-weight: 700;
 		font-family: $open-sans;
 		text-transform: uppercase;
 		padding-bottom: 1em;
 		color: $btn;
+
+		@media only screen and (min-width: 38em) {
+		font-size: 3em;
+		}
+	}
+
+	@media only screen and (min-width: 38em) {
+		margin: .5em 15%;
+	}
+
+	@media only screen and (min-width: 60em) {
+		margin: .5em 20%;
 	}
 }
 
@@ -21,6 +32,15 @@
 .icon-snow1 {
 	color: $snow;
 	font-size: 8em;
+	
+	@media only screen and (min-width: 38em) {
+		font-size: 10em;
+	}
+
+	@media only screen and (min-width: 60em) {
+		font-size: 12em;	
+	}
+
 }
 
 .pen-move {
@@ -86,17 +106,38 @@
 		transform: rotate(-5deg)
 		}
 	}
+
+	@media only screen and (min-width: 38em) {
+		font-size: 12em;
+	}
+
+	@media only screen and (min-width: 60em) {
+		font-size: 14em;	
+	}
 }
 
 .icon-snow2 {
 	color: $snow;
 	font-size: 8em;
+
+	@media only screen and (min-width: 38em) {
+		font-size: 10em;
+	}
+
+	@media only screen and (min-width: 60em) {
+		font-size: 12em;	
+	}
+
 }
 
 .pen-button {
 	text-align: center;
+	font-weight: 600;
 	a {
 	@include button;
+	}
+	@media only screen and (min-width: 38em) {
+		font-size: 1.5em;
 	}
 }
 
